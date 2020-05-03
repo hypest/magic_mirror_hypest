@@ -12,7 +12,7 @@ RUN git clone --depth 1 -b master https://github.com/heskja/MMM-CalendarWeek.git
 
 RUN npm install ./modules/MMM-EARTH
 
-RUN cp -R css .
+COPY css ./
 
 COPY config.js ./config/
 
