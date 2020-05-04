@@ -2,6 +2,8 @@
 
 A custom MagicMirror² setup delivered as a Docker image, based off https://github.com/bastilimbach/docker-MagicMirror.
 
+![Screenshot of the MagicMirror² setup by Hypest](magic_mirror_hypest.png)
+
 # How to use
 
 ```bash
