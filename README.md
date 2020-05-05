@@ -28,5 +28,5 @@ docker run  -d \
     --env MM_OMW_LOCATION_ID=<OpenWeatherMap city ID. Example: 734712> \
     --env MM_OMW_APP_ID="<Your OpenWeatherMap app id. Get yours from https://openweathermap.org/appid>" \
     --name magic_mirror_hypest \
-    hypest/docker-magicmirror-hypest
+    hypest/magic_mirror_hypest
 ```
