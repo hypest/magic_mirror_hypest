@@ -4,6 +4,17 @@ A custom MagicMirror² setup delivered as a Docker image, based off https://gith
 
 ![Screenshot of the MagicMirror² setup by Hypest](magic_mirror_hypest.png)
 
+# How to build the image
+
+```bash
+docker build ./ -f Dockerfile-alpine -t hypest/magic_mirror_hypest:x.x.x-alpine
+```
+and to build the node:buster based image use:
+
+```bash
+docker build ./ -f Dockerfile-alpine -t hypest/magic_mirror_hypest:x.x.x-alpine
+```
+
 # How to use
 
 ```bash
