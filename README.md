@@ -6,15 +6,15 @@ A custom MagicMirror² setup delivered as a Docker image, based off https://gith
 
 # How to build the image
 
-There are 2 Dockerfiles available, one to build a node:buster and one to build a node:alpine based image.
+There are 2 Dockerfiles available, one to build a node:alpine and one to build a node:buster based image.
 
 ```bash
-docker build ./ -f Dockerfile-alpine -t hypest/magic_mirror_hypest:x.x.x-alpine
+docker build ./ -f Dockerfile-alpine -t hypest/magic_mirror_hypest:x.x.x
 ```
 and to build the node:buster based image use:
 
 ```bash
-docker build ./ -f Dockerfile-alpine -t hypest/magic_mirror_hypest:x.x.x-alpine
+docker build ./ -f Dockerfile-buster -t hypest/magic_mirror_hypest:x.x.x-buster
 ```
 
 # How to use
