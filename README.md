@@ -32,3 +32,7 @@ docker run  -d \
     --name magic_mirror_hypest \
     hypest/magic_mirror_hypest
 ```
+
+# How to develop live
+
+Create a `modules` and a `config` folder, and map them in docker to their respective folders inside the container (`/opt/magic_mirror/...`). For the config.js itself, create a hard link `cd config; ln ../config.js ./config.js`. Also clone the modules locally, by manually running the git and npm commands from https://github.com/hypest/magic_mirror_hypest/blob/master/Dockerfile. Restart the container and it should be ready.
